@@ -1,0 +1,37 @@
+# Ignore bundler config
+/.bundle
+
+/config/database.yml
+/config/settings/development.yml
+.idea/
+.ruby-gemset
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+config/settings.local.yml
+config/settings.docker.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+config/rubocop.yml
+coverage
+*~
+*.swp
+
+/public/uploads
+
+/config/initializers/secret_token.rb
+
+*.iml
+
+/out
+
+/spec/reports
+
+npm-debug.log
+/node_modules
+/node_modules_cache
+checkstyle.xml
+
+.container*
+
